@@ -9,11 +9,6 @@ A RESTful API service for the Ratings and Review System, built using  React.js ,
     Runtime : React.js
     Framework : Express.js
     Database : MySQL
-    ORM : Raw SQL / Query Builder
-    Authentication : (optional or in  progress)
-    Hosting : Localhost (can be deployed on Render, Railway, etc.)
-
-      
 
 ## 🚀 Getting Started
 
