@@ -2,10 +2,10 @@ const mysql = require('mysql2/promise');
 
 // Database connection
 const db = mysql.createPool({
-  host: 'localhost',
-  user: 'root',
-  password: 'Rak@sha1',
-  database: 'review_rating'
+host: process.env.DB_HOST,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  database: process.env.DB_NAME,
 });
 
 // Get all products
