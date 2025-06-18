@@ -6,8 +6,8 @@ A RESTful API service for the Ratings and Review System, built using  React.js ,
 
 ## 🔧 Tech Stack
 
-    Runtime : React.js
-    Framework : Express.js
+    Frontend : Vite.js
+    Backend : Express.js
     Database : MySQL
 
 ## 🚀 Getting Started
