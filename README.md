@@ -29,42 +29,43 @@ DB_NAME=customervoice
 PORT=3000
 
 🔄 Installation
-bash
-Copy
-Edit
 git clone https://github.com/sajal9685/CustomerVoice-backend
 cd CustomerVoice-backend
 npm install
 
+
 ▶️ Run Server
-bash
-Copy
-Edit
 npm run dev
+
 Server runs on http://localhost:3000
 
 📚 API Endpoints
 🧑‍💼 Users
-Method	Endpoint	Description
-GET	/users	Get all users
-GET	/users/:id	Get user by ID
-POST	/register	Register a new user
-PUT	/users/:id	Update user by ID
-DELETE	/users/:id	Delete user by ID
+| Method | Endpoint     | Description         |
+| ------ | ------------ | ------------------- |
+| GET    | `/users`     | Get all users       |
+| GET    | `/users/:id` | Get user by ID      |
+| POST   | `/register`  | Register a new user |
+| PUT    | `/users/:id` | Update user by ID   |
+| DELETE | `/users/:id` | Delete user by ID   |
+
 
 🛍️ Products
-Method	Endpoint	Description
-GET	/products	Get all products
-GET	/products/:id	Get product by ID
-POST	/products	Add new product
-PUT	/products/:id	Update product by ID
-DELETE	/products/:id	Delete product by ID
+| Method | Endpoint        | Description          |
+| ------ | --------------- | -------------------- |
+| GET    | `/products`     | Get all products     |
+| GET    | `/products/:id` | Get product by ID    |
+| POST   | `/products`     | Add new product      |
+| PUT    | `/products/:id` | Update product by ID |
+| DELETE | `/products/:id` | Delete product by ID |
+
 
 📝 Reviews
-Method	Endpoint	Description
-GET	/reviews	Get all reviews
-POST	/reviews	Submit a new review
-DELETE	/reviews/:id	Delete review by ID
+| Method | Endpoint       | Description         |
+| ------ | -------------- | ------------------- |
+| GET    | `/reviews`     | Get all reviews     |
+| POST   | `/reviews`     | Submit a new review |
+| DELETE | `/reviews/:id` | Delete review by ID |
 
 📬 Contact
 For any questions or issues, feel free to reach out:
