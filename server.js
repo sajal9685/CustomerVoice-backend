@@ -4,6 +4,9 @@ const cors = require("cors");
 const port = 3000;
 const mysql = require("mysql");
 
+require('dotenv').config();
+
+console.log("DB User:", process.env.DB_USER);
 const database = require("./database");
 const { db, getProducts, getProductById } = database;
 
