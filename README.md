@@ -30,7 +30,7 @@ npm install
 
 
 ▶️ Run Server
-npm run dev
+node server.js
 
 Server runs on http://localhost:3000
 
